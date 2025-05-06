@@ -4,6 +4,7 @@ SocialPulse ist ein KI-gestütztes Marketing-Tool, das kolumbianischen Tourismus
 
 **Kernfunktionen**:
 - **Tweet-Generierung**: Grok-API erstellt zielgruppenspezifische Tweets (z. B. „Entdecke Kolumbien! 🌴 #EcoTourismColombia“), angepasst an Märkte wie USA („#AdventureTravel“) oder Europa („#SustainableTravel“).
+Auch in verschiedenen Sprachen (en,sp,de,fr)
 - **Sentiment-Analyse**: VADER analysiert Trends (z. B. „#ColombiaSafety“). Bei >30 % Negativität pausieren Tweets, um Reputationsschäden zu vermeiden; positive Trends wie „#TravelColombia“ maximieren Reichweite.
 - **Scheduling**: Cloud Scheduler plant Tweets (z. B. 10:00 EST), basierend auf Kunden-Einstellungen.
 - **Dashboard**: Streamlit-UI zeigt Tweets, Metriken und Trends, mit Auswahl zwischen eigenem/zentralem Account.
